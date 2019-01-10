@@ -1,8 +1,21 @@
-body, #slider, .wrap,.slider-content{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
+body,
+#slider,
+.wrap,
+.slider-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
