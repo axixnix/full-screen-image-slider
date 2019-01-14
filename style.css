@@ -41,3 +41,13 @@ body,
   font-size: 5rem;
   color: #fff;
 }
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
