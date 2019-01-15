@@ -51,3 +51,10 @@ body,
   height: 0;
   border-style: solid;
 }
+
+#arrow-left {
+  border-width: 30px 40px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
